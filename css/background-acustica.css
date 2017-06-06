@@ -18,7 +18,7 @@ background-size: cover;
 }
 
 #im-roof-measurement {
-background: url(../img/acustica/rooftop_measurement.jpg) no-repeat center center fixed; 
+background: url(../img/acustica/rooftop_measurement_small.jpg) no-repeat center center fixed; 
 display: table;
 height: 600px;
 position: relative;
@@ -36,7 +36,7 @@ color: white;
 }
 
 #im-escavadeira {
-background: url(../img/acustica/Fundo_Escavadeira.jpg) no-repeat center center fixed; 
+background: url(../img/acustica/Fundo_Escavadeira_small.jpg) no-repeat center center fixed; 
 display: table;
 height: 600px;
 position: relative;
@@ -72,7 +72,7 @@ color: white;
 }
 
 #im-anechoic {
-background: url(../img/acustica/Fundo-Chambre_anéchoique.jpg) no-repeat center center fixed; 
+background: url(../img/acustica/Fundo-Chambre_anechoique_small.jpg) no-repeat center center fixed; 
 display: table;
 height: 600px;
 position: relative;
@@ -99,7 +99,7 @@ color: #150b70;
     }
 
 #im-roof-measurement {
-    background: url(../img/acustica/rooftop_measurement.jpg) no-repeat center center fixed; 
+    background: url(../img/acustica/rooftop_measurement_small.jpg) no-repeat center center fixed; 
     display: table;
     position: relative;
     background-size: auto auto;
@@ -109,7 +109,7 @@ color: #150b70;
     }
     
 #im-escavadeira {
-    background: url(../img/acustica/Fundo_Escavadeira.jpg) no-repeat center center fixed;  
+    background: url(../img/acustica/Fundo_Escavadeira_small.jpg) no-repeat center center fixed;  
     display: table;
     position: relative;
     background-size: auto auto;
@@ -129,7 +129,7 @@ color: #150b70;
     }
 
 #im-anechoic {
-    background: url(../img/acustica/Fundo-Chambre_anéchoique.jpg) no-repeat center center fixed; 
+    background: url(../img/acustica/Fundo-Chambre_anechoique_small.jpg) no-repeat center center fixed; 
     display: table;
     position: relative;
     background-size: auto auto;
