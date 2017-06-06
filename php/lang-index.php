@@ -8,23 +8,23 @@ if(isset($_COOKIE['lang'])) {
 }
 
 if ($_GET['lang']=='pt') {
-include('php/lang/index_pt.php');
+include('php/index_pt.php');
 } 
 
 else if ($_GET['lang']=='fr') {
-include('php/lang/index_fr.php');
+include('php/index_fr.php');
 }
 
 else if ($_GET['lang']=='es') {
-include('php/lang/index_es.php');
+include('php/index_es.php');
 }
 
 else if ($_GET['lang']=='en') {
-include('php/lang/index_en.php');
+include('php/index_en.php');
 }
 
 else {                       // si aucune langue n'est déclarée on inclut le fichier fr-lang.php par défaut
-include('php/lang/index_pt.php');
+include('php/index_pt.php');
 }
 
 

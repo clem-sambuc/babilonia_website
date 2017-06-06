@@ -1,5 +1,5 @@
 <?php
-  require("php/lang/lang-cultivo.php");
+  require("php/lang-cultivo.php");
 ?> 
 
 <!DOCTYPE html>

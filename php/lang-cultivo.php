@@ -8,23 +8,23 @@ if(isset($_COOKIE['lang'])) {
 }
 
 if ($_GET['lang']=='pt') {
-include('php/lang/cultivo_pt.php');
+include('php/cultivo_pt.php');
 } 
 
 else if ($_GET['lang']=='fr') {
-include('php/lang/cultivo_fr.php');
+include('php/cultivo_fr.php');
 }
 
 else if ($_GET['lang']=='es') {
-include('php/lang/cultivo_es.php');
+include('php/cultivo_es.php');
 }
 
 else if ($_GET['lang']=='en') {
-include('php/lang/cultivo_en.php');
+include('php/cultivo_en.php');
 }
 
 else {                       // si aucune langue n'est déclarée on inclut le fichier fr-lang.php par défaut
-include('php/lang/cultivo_pt.php');
+include('php/cultivo_pt.php');
 }
 
 

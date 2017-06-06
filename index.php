@@ -1,5 +1,5 @@
 <?php
-  require("php/lang/lang-index.php");
+  require("php/lang-index.php");
 ?> 
 <!DOCTYPE html>
 <html lang=<?php echo TXT_LANG; ?> >

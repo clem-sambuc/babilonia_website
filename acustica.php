@@ -1,5 +1,5 @@
 <?php
-  require("php/lang/lang-acustica.php");
+  require("php/lang-acustica.php");
 ?> 
 <!DOCTYPE html>
 <html lang=<?php echo TXT_LANG; ?> >

@@ -8,23 +8,23 @@ if(isset($_COOKIE['lang'])) {
 }
 
 if ($_GET['lang']=='pt') {
-include('php/lang/acustica_pt.php');
+include('php/acustica_pt.php');
 } 
 
 else if ($_GET['lang']=='fr') {
-include('php/lang/acustica_fr.php');
+include('php/acustica_fr.php');
 }
 
 else if ($_GET['lang']=='es') {
-include('php/lang/acustica_es.php');
+include('php/acustica_es.php');
 }
 
 else if ($_GET['lang']=='en') {
-include('php/lang/acustica_en.php');
+include('php/acustica_en.php');
 }
 
 else {                       // si aucune langue n'est déclarée on inclut le fichier fr-lang.php par défaut
-include('php/lang/acustica_pt.php');
+include('php/acustica_pt.php');
 }
 
 
