@@ -1,0 +1,249 @@
+/* general styles */
+html, body {
+height: 100%;
+width: 100%;
+}
+
+/* font-face loading font for h2 */
+@font-face {
+    font-family: 'marzo_regular';
+    src: url('../fonts/marzo_regular/1e6ec96c95301fa73aa1d026f161a269.eot');
+    src: url('../fonts/marzo_regular/1e6ec96c95301fa73aa1d026f161a269.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/marzo_regular/1e6ec96c95301fa73aa1d026f161a269.woff') format('woff'),
+         url('../fonts/marzo_regular/1e6ec96c95301fa73aa1d026f161a269.ttf') format('truetype'),
+         url('../fonts/marzo_regular/1e6ec96c95301fa73aa1d026f161a269.svg#marzo_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+h2 {
+    font-family: 'marzo_regular';
+    font-size: 2.6em;
+    font-variant: small-caps;
+    font-weight: 900;
+}
+h4 {
+    font-family: 'marzo_regular';
+    font-weight: bold;
+}
+h3 {
+    font-family: 'marzo_regular';
+    font-size: 2em;
+    font-variant: small-caps;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'pacifica_condensed';
+    src: url('../fonts/pacifica_condensed_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1 {
+    font-family: 'pacifica_condensed';
+}
+
+@font-face {
+    font-family:"Sansation Light";
+    src:url("../fonts/Sansation_Light/Sansation_Light.eot?") format("eot"),
+        url("../fonts/Sansation_Light/Sansation_Light.woff") format("woff"),
+        url("../fonts/Sansation_Light/Sansation_Light.ttf") format("truetype"),
+        url("../fonts/Sansation_Light/Sansation_Light.svg#SansationLight") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+p {
+    font-family: 'Sansation Light';
+    font-size: 1.6em;
+}
+@media (max-width: 1350px) {
+    p{
+        font-family: 'Sansation Light';
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 1300px) {
+    .container{
+        width: 70%;
+    }
+}
+
+.img-scaled {
+    width:55%;
+}
+@media (min-width: 768px) {
+    .img-scaled {
+    width:20%;
+    }
+}
+
+img {
+	max-width:100%;
+}
+/* bordered style */
+.border {
+	border: solid 1px; 
+	padding: 5px; 
+	border-radius: 5px;
+}
+.border-green {
+    border-color: #68B04D;
+}
+.border-blue {
+    border-color: #6677c4;
+}
+.border-red {
+    border-color: #BF745E;
+}
+.bg-green {
+	background-color: #68B04D;
+}
+.bg-blue {
+	background-color: #6677c4;
+}
+.bg-red {
+	background-color: #BF745E;
+}
+.bg-white {
+    background-color: white;
+}
+
+.text-green {
+	color: #68B04D;
+}
+.text-blue {
+	color: #6677c4;
+}
+.text-red {
+	color: #BF745E;
+}
+/* padded section */
+.pad-section {
+padding: 2%;
+}
+.pad-section img {
+width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+}
+.text-vcenter h1 {
+font-size: 4.5em;
+font-weight: 700;
+margin: 0;
+padding: 0;
+}
+/* centered row */
+.row-centered {
+    text-align:center;
+}
+/* centered column */
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* inline-block space fix */
+    margin-right:-4px;
+    vertical-align: top;
+}
+
+/* additional sections */
+#home {
+background: url(../img/jardins_suspensos/view_sao_paulo_small.jpg) no-repeat center center fixed; 
+display: table;
+height: 100%;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#nossa_missao {
+    background-color: #cdccfa;
+}
+#im-heliponto1 {
+background: url(../img/jardins_suspensos/im-heliponto1.jpg) no-repeat center center fixed; 
+display: table;
+height: 600px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#preservar {
+background-color: #68B04D;
+color: white;
+}
+#im-heliponto2 {
+background: url(../img/jardins_suspensos/im-heliponto2.jpg) no-repeat center center fixed; 
+display: table;
+height: 600px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#produzir {
+background-color: #6677c4;
+color: white;
+}
+#im-heliponto3 {
+background: url(../img/jardins_suspensos/im-heliponto3.jpg) no-repeat center center fixed; 
+display: table;
+height: 600px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#compartilhar {
+background-color: #BF745E;
+color: white;
+}
+#im-heliponto4 {
+background: url(../img/jardins_suspensos/im-heliponto4.jpg) no-repeat center center fixed; 
+display: table;
+height: 600px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#vantagens {
+background-color: #aa90e5;
+color: white;
+}
+
+#closing {
+background: url(../img/jardins_suspensos/Hortaponto_macroSky.jpg) no-repeat center center fixed; 
+display: table;
+height: 700px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#closing .panel {
+opacity: 0.85;
+}
+#google_map {
+height: 500px;
+}
+footer {
+padding: 20px 0;
+}
+footer .glyphicon {
+color: #333333;
+font-size: 60px;
+}
+footer .glyphicon:hover {
+color: #306d9f;
+}

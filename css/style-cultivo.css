@@ -1,0 +1,136 @@
+/* general styles */
+html, body {
+height: 100%;
+width: 100%;
+}
+
+#text-center-thigh {
+    text-align: center;
+    margin:0 auto;
+    width:60%;
+}
+@media (min-width: 1000px) {
+    
+    #text-center-thigh {
+        text-align: center;
+        margin:0 auto;
+        width:40%;
+    }
+
+}
+
+/* redefinition of container width on large screens */
+@media (min-width: 1300px) {
+    .container{
+        width: 80%;
+    }
+}
+
+/* deal with float left and right on large screen */
+@media (min-width: 992px) { 
+    .float-right {
+      float:right!important;
+    }
+    .float-left {
+      float:left!important;
+    }
+  }
+@media (min-width: 992px) and (max-width: 1500px) {
+    .padding-top-lg {
+        padding-top: 50px;
+    } 
+  }
+@media (min-width: 1500px) {
+    .padding-top-lg {
+        padding-top: 100px;
+    } 
+  }
+@media (max-width: 992px) {
+    .padding-top-sm {
+       padding-top: 30px; 
+    }
+}
+
+.padding-top {
+    padding-top: 30px; 
+  }
+
+/* scaled image - smaller */
+.img-scaled {
+    width:55%;
+}
+@media (min-width: 768px) {
+    .img-scaled {
+    width:20%;
+    }
+}
+
+img {
+	max-width:100%;
+}
+
+/* padded section */
+.pad-section {
+padding: 2%;
+padding-top: 45px; 
+}
+
+.pad-section img {
+    width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+}
+.text-vcenter h1 {
+font-size: 4.5em;
+font-weight: 700;
+margin: 0;
+padding: 0;
+}
+/* centered row */
+.row-centered {
+    text-align:center;
+}
+.row.extra-bottom-padding{
+   margin-bottom: 40px;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+/* centered column */
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* inline-block space fix */
+    margin-right:-4px;
+    vertical-align: top;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}

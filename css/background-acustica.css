@@ -1,0 +1,155 @@
+
+/* background images sections */
+#home {
+
+background: url(../img/acustica/Fundo_Aicraft_Building2_small.jpg) no-repeat center center fixed; 
+display: table;
+height: 100%;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+}
+
+#nossa_missao {
+    background-color: white;
+}
+
+#im-roof-measurement {
+background: url(../img/acustica/rooftop_measurement.jpg) no-repeat center center fixed; 
+display: table;
+height: 600px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#servicos {
+/*
+background-color: #68B04D;
+color: white;
+*/
+}
+
+#im-escavadeira {
+background: url(../img/acustica/Fundo_Escavadeira.jpg) no-repeat center center fixed; 
+display: table;
+height: 600px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#mercados {
+/*
+background-color: #6677c4;
+color: white;
+*/
+}
+
+#im-eolica {
+background: url(../img/acustica/Fundo-Eólica.jpg) no-repeat center center fixed; 
+display: table;
+height: 600px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#ferramentos {
+/*
+background-color: #BF745E;
+color: white;
+*/
+}
+
+#im-anechoic {
+background: url(../img/acustica/Fundo-Chambre_anéchoique.jpg) no-repeat center center fixed; 
+display: table;
+height: 600px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#sobre_nos {
+background-color: #d0e4f2;
+color: #150b70;
+}
+
+@media only screen and (max-device-width: 480px)  {
+#home {
+    background: url(../img/acustica/Fundo_Aicraft_Building2_small.jpg) no-repeat center center fixed; 
+    display: table;
+    position: relative;
+    background-size: auto auto;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: scroll;
+    }
+
+#im-roof-measurement {
+    background: url(../img/acustica/rooftop_measurement.jpg) no-repeat center center fixed; 
+    display: table;
+    position: relative;
+    background-size: auto auto;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: scroll;
+    }
+    
+#im-escavadeira {
+    background: url(../img/acustica/Fundo_Escavadeira.jpg) no-repeat center center fixed;  
+    display: table;
+    position: relative;
+    background-size: auto auto;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: scroll;
+    }
+    
+#im-eolica {
+    background: url(../img/acustica/Fundo-Eólica.jpg) no-repeat center center fixed; 
+    display: table;
+    position: relative;
+    background-size: auto auto;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: scroll;
+    }
+
+#im-anechoic {
+    background: url(../img/acustica/Fundo-Chambre_anéchoique.jpg) no-repeat center center fixed; 
+    display: table;
+    position: relative;
+    background-size: auto auto;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: scroll;
+    }
+}
+
+
+#google_map {
+height: 500px;
+}
+footer {
+padding: 20px 0;
+}
+footer .glyphicon {
+color: #333333;
+font-size: 60px;
+}
+footer .glyphicon:hover {
+color: #306d9f;
+}

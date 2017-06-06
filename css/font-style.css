@@ -1,0 +1,98 @@
+/* FONT DEFINITIONS font-face loading */
+@font-face {
+    font-family:"Sansation Light";
+    src:url("../fonts/Sansation_Light/Sansation_Light.eot?") format("eot"),
+        url("../fonts/Sansation_Light/Sansation_Light.woff") format("woff"),
+        url("../fonts/Sansation_Light/Sansation_Light.ttf") format("truetype"),
+        url("../fonts/Sansation_Light/Sansation_Light.svg#SansationLight") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+p {
+    font-family: 'Sansation Light';
+    font-size: 1.2em;
+}
+@media (max-width: 1500px) {
+    p{
+        font-family: 'Sansation Light';
+        font-size: 1em;
+    }
+}
+@media (max-width: 400px) {
+    p{
+        font-family: 'Sansation Light';
+        font-size: 0.8em;
+    }
+}
+
+@font-face {
+    font-family: 'pacifica_condensed';
+    src: url('../fonts/pacifica_condensed_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1 {
+    font-family: 'pacifica_condensed';
+}
+
+
+@font-face {
+    font-family: 'marzo_regular';
+    src: url('../fonts/marzo_regular/1e6ec96c95301fa73aa1d026f161a269.eot');
+    src: url('../fonts/marzo_regular/1e6ec96c95301fa73aa1d026f161a269.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/marzo_regular/1e6ec96c95301fa73aa1d026f161a269.woff') format('woff'),
+         url('../fonts/marzo_regular/1e6ec96c95301fa73aa1d026f161a269.ttf') format('truetype'),
+         url('../fonts/marzo_regular/1e6ec96c95301fa73aa1d026f161a269.svg#marzo_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+h2 {
+    font-family: 'marzo_regular';
+    font-size: 2.8em;
+    font-variant: small-caps;
+    font-weight: 900;
+}
+@media (max-width: 1500px) {
+    h2{
+        font-family: 'marzo_regular';
+        font-size: 2.6em;
+        font-variant: small-caps;
+        font-weight: 900;
+    }
+}
+@media (max-width: 400px) {
+    h2{
+        font-family: 'marzo_regular';
+        font-size: 2em;
+        font-variant: small-caps;
+        font-weight: 900;
+    }
+}
+
+h3 {
+    font-family: 'marzo_regular';
+    font-size: 2.5em;
+    font-variant: small-caps;
+    font-weight: 400;
+}
+@media (max-width: 1500px) {
+    h3 {
+        font-family: 'marzo_regular';
+        font-size: 2em;
+        font-variant: small-caps;
+        font-weight: 400;
+    }
+}
+@media (max-width: 400px) {
+    h3 {
+        font-family: 'marzo_regular';
+        font-size: 1.6em;
+        font-variant: small-caps;
+        font-weight: 400;
+    }
+}
+
+h4 {
+    font-family: 'marzo_regular';
+    font-weight: bold;
+}

@@ -1,0 +1,2 @@
+RewriteRule ^acustica$ acustica.php [L]
+RewriteRule ^index$ index.php [L]

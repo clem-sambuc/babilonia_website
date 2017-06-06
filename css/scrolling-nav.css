@@ -1,0 +1,119 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 63px;
+    height: 63px;
+    padding-top: 0;
+    
+    padding-left:10px;
+    padding-right:10px;
+    font-family: 'marzo_regular';
+    font-size: 1.2em;
+    font-variant: small-caps;
+    font-weight: 900;
+}
+@media(max-width: 1467px) and (min-width: 1380px) {
+    .navbar-nav li a {
+        margin-left : 11px;
+        margin-right : 11px;
+    }
+}
+@media(max-width: 1700px) and (min-width: 1467px) {
+    .navbar-nav li a {
+        margin-left : 15px;
+        margin-right : 15px;
+    }
+}
+@media(min-width:1700px) {
+    .navbar-nav li a {
+        margin-left : 20px;
+        margin-right : 20px;
+    }
+}
+
+@media(min-width:1100px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+    
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1100px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-brand {
+        padding: 0;        
+  }
+  .navbar-brand img {
+        margin-top: 10px;
+        margin-left: 10px;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+
+      max-height: 300px;
+      overflow-y: scroll!important;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+
+}
+
+
+
+#top-link-block.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -82px; /* negative of the offset - height of link element */
+    left: 10%; /* padding from the left side of the window */
+}
+#top-link-block.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 18px; /* height of link element */
+    left: 10%; /* padding from the left side of the window */
+}

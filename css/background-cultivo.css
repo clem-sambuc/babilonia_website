@@ -1,0 +1,216 @@
+
+/* background images sections */
+#home {
+
+background: url(../img/cultivo_inteligente/greenplant_centered2.jpg) no-repeat center center fixed; 
+display: table;
+height: 100%;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+}
+
+#nossa_missao {
+    background-color: white;
+}
+
+#background1 {
+background: url(../img/cultivo_inteligente/several_plants3.jpg) no-repeat center center fixed; 
+display: table;
+height: 600px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#solucao {
+/*
+background-color: #68B04D;
+color: white;
+*/
+}
+
+#background2 {
+background: url(../img/cultivo_inteligente/pepers_indoor.jpg) no-repeat center center fixed; 
+display: table;
+height: 600px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#cultivo{
+background-color: #bae0ba;
+}
+
+#background3 {
+background: url(../img/cultivo_inteligente/basilic.jpg) no-repeat center center fixed; 
+display: table;
+height: 600px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#agua {
+background-color: #E5F6FE;
+
+}
+
+#background4 {
+background: url(../img/cultivo_inteligente/water_drops.jpg) no-repeat center center fixed; 
+display: table;
+height: 600px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#luz {
+background-color: #FFFFA3;
+}
+
+#background5 {
+background: url(../img/cultivo_inteligente/indoor_plant_light.jpg) no-repeat center center fixed; 
+display: table;
+height: 600px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+#adubo {
+background-color: #CA9E92;
+}
+
+#background6 {
+background: url(../img/cultivo_inteligente/indoor_plants.jpg) no-repeat center center fixed; 
+display: table;
+height: 600px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#aplicativo{
+background-color: white;
+}
+
+#background7 {
+background: url(../img/cultivo_inteligente/aromatherapy_plants.jpg) no-repeat center center fixed; 
+display: table;
+height: 600px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#sobre_nos {
+background-color: #d0e4f2;
+color: #150b70;
+}
+
+@media only screen and (max-device-width: 480px)  {
+#home {
+    background: url(../img/acustica/Fundo_Aicraft_Building2_small.jpg) no-repeat center center fixed; 
+    display: table;
+    position: relative;
+    background-size: auto auto;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: scroll;
+    }
+
+#background1 {
+    background: url(../img/acustica/rooftop_measurement.jpg) no-repeat center center fixed; 
+    display: table;
+    position: relative;
+    background-size: auto auto;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: scroll;
+    }
+    
+#background2 {
+    background: url(../img/acustica/Fundo_Escavadeira.jpg) no-repeat center center fixed;  
+    display: table;
+    position: relative;
+    background-size: auto auto;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: scroll;
+    }
+    
+#background3 {
+    background: url(../img/acustica/Fundo-Eólica.jpg) no-repeat center center fixed; 
+    display: table;
+    position: relative;
+    background-size: auto auto;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: scroll;
+    }
+
+#background4 {
+    background: url(../img/acustica/Fundo-Chambre_anéchoique.jpg) no-repeat center center fixed; 
+    display: table;
+    position: relative;
+    background-size: auto auto;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: scroll;
+    }
+
+#background5 {
+    background: url(../img/acustica/Fundo-Chambre_anéchoique.jpg) no-repeat center center fixed; 
+    display: table;
+    position: relative;
+    background-size: auto auto;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: scroll;
+    }
+
+#background6 {
+    background: url(../img/acustica/Fundo-Chambre_anéchoique.jpg) no-repeat center center fixed; 
+    display: table;
+    position: relative;
+    background-size: auto auto;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: scroll;
+    }
+}
+
+
+#google_map {
+height: 500px;
+}
+footer {
+padding: 20px 0;
+}
+footer .glyphicon {
+color: #333333;
+font-size: 60px;
+}
+footer .glyphicon:hover {
+color: #306d9f;
+}

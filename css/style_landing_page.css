@@ -1,0 +1,154 @@
+/* general styles */
+html, body {
+height: 100%;
+width: 100%;
+}
+
+/* font-face loading font for h2 */
+@font-face {
+    font-family: 'marzo_regular';
+    src: url('../fonts/marzo_regular/1e6ec96c95301fa73aa1d026f161a269.eot');
+    src: url('../fonts/marzo_regular/1e6ec96c95301fa73aa1d026f161a269.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/marzo_regular/1e6ec96c95301fa73aa1d026f161a269.woff') format('woff'),
+         url('../fonts/marzo_regular/1e6ec96c95301fa73aa1d026f161a269.ttf') format('truetype'),
+         url('../fonts/marzo_regular/1e6ec96c95301fa73aa1d026f161a269.svg#marzo_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+h2 {
+    font-family: 'marzo_regular';
+    font-size: 2.6em;
+    font-variant: small-caps;
+    font-weight: 900;
+}
+h4 {
+    font-family: 'marzo_regular';
+    font-weight: bold;
+}
+h3 {
+    font-family: 'marzo_regular';
+    font-size: 2em;
+    font-variant: small-caps;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'pacifica_condensed';
+    src: url('../fonts/pacifica_condensed_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1 {
+    font-family: 'pacifica_condensed';
+}
+
+@font-face {
+    font-family:"Sansation Light";
+    src:url("../fonts/Sansation_Light/Sansation_Light.eot?") format("eot"),
+        url("../fonts/Sansation_Light/Sansation_Light.woff") format("woff"),
+        url("../fonts/Sansation_Light/Sansation_Light.ttf") format("truetype"),
+        url("../fonts/Sansation_Light/Sansation_Light.svg#SansationLight") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+p {
+    font-family: 'Sansation Light';
+    font-size: 1.1em;
+    padding-top: 1cm;
+}
+@media (min-width: 1000px) {
+    p{
+        font-family: 'Sansation Light';
+        font-size: 1.5em;
+        padding-top: 1cm;
+    }
+}
+
+.container{
+        width: 80%;
+    }
+@media (min-width: 1000px) {
+    .container{
+        width: 60%;
+    }
+}
+
+.img-scaled {
+    width:55%;
+}
+@media (min-width: 768px) {
+    .img-scaled {
+    width:45%;
+    }
+}
+
+img {
+	max-width:100%;
+}
+
+.small-width {
+    width:60%;
+}
+.padding-bottom {
+    padding-bottom:1cm;
+}
+
+.bottom-top-space {
+     margin-bottom: 0cm;
+     margin-top: 0cm;
+  }
+
+/*
+.dropdown li a{
+    font-family: 'marzo_regular';
+    font-size: 1.2em;
+    font-variant: small-caps;
+    font-weight: 900;
+}
+*/
+
+
+/* padded section */
+.pad-section {
+padding: 2%;
+}
+.pad-section img {
+width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+}
+.text-vcenter h1 {
+font-size: 4.5em;
+font-weight: 700;
+margin: 0;
+padding: 0;
+}
+/* centered row */
+.row-centered {
+    text-align:center;
+}
+/* centered column */
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* inline-block space fix */
+    margin-right:-4px;
+    vertical-align: top;
+}
+
+
+footer {
+padding: 20px 0;
+}
+footer .glyphicon {
+color: #333333;
+font-size: 60px;
+}
+footer .glyphicon:hover {
+color: #306d9f;
+}
