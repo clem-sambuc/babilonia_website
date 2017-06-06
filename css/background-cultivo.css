@@ -47,7 +47,9 @@ background-size: cover;
 }
 
 #cultivo{
+/*
 background-color: #bae0ba;
+*/
 }
 
 #background3 {
@@ -62,7 +64,9 @@ background-size: cover;
 }
 
 #agua {
+/*
 background-color: #E5F6FE;
+*/
 
 }
 
@@ -78,7 +82,9 @@ background-size: cover;
 }
 
 #luz {
+/*
 background-color: #FFFFA3;
+*/
 }
 
 #background5 {
@@ -94,7 +100,9 @@ background-size: cover;
 
 
 #adubo {
+/*
 background-color: #CA9E92;
+*/
 }
 
 #background6 {
@@ -109,7 +117,9 @@ background-size: cover;
 }
 
 #aplicativo{
+/*
 background-color: white;
+*/
 }
 
 #background7 {
@@ -124,8 +134,10 @@ background-size: cover;
 }
 
 #sobre_nos {
+/*
 background-color: #d0e4f2;
 color: #150b70;
+*/
 }
 
 @media only screen and (max-device-width: 480px)  {
