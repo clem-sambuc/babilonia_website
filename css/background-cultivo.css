@@ -18,7 +18,7 @@ background-size: cover;
 }
 
 #background1 {
-background: url(../img/cultivo_inteligente/several_plants3.jpg) no-repeat center center fixed; 
+background: url(../img/cultivo_inteligente/several_plants3_small.jpg) no-repeat center center fixed; 
 display: table;
 height: 600px;
 position: relative;
@@ -51,7 +51,7 @@ background-color: #bae0ba;
 }
 
 #background3 {
-background: url(../img/cultivo_inteligente/basilic.jpg) no-repeat center center fixed; 
+background: url(../img/cultivo_inteligente/water_drops.jpg) no-repeat center center fixed; 
 display: table;
 height: 600px;
 position: relative;
@@ -67,7 +67,7 @@ background-color: #E5F6FE;
 }
 
 #background4 {
-background: url(../img/cultivo_inteligente/water_drops.jpg) no-repeat center center fixed; 
+background: url(../img/cultivo_inteligente/indoor_plant_light_small.jpg) no-repeat center center fixed; 
 display: table;
 height: 600px;
 position: relative;
@@ -82,7 +82,7 @@ background-color: #FFFFA3;
 }
 
 #background5 {
-background: url(../img/cultivo_inteligente/indoor_plant_light.jpg) no-repeat center center fixed; 
+background: url(../img/cultivo_inteligente/soil.jpg) no-repeat center center fixed; 
 display: table;
 height: 600px;
 position: relative;
@@ -130,7 +130,7 @@ color: #150b70;
 
 @media only screen and (max-device-width: 480px)  {
 #home {
-    background: url(../img/acustica/Fundo_Aicraft_Building2_small.jpg) no-repeat center center fixed; 
+    background: url(../img/cultivo_inteligente/greenplant_centered2.jpg) no-repeat center center fixed; 
     display: table;
     position: relative;
     background-size: auto auto;
@@ -140,7 +140,7 @@ color: #150b70;
     }
 
 #background1 {
-    background: url(../img/acustica/rooftop_measurement.jpg) no-repeat center center fixed; 
+    background: url(../img/cultivo_inteligente/several_plants3_small.jpg) no-repeat center center fixed; 
     display: table;
     position: relative;
     background-size: auto auto;
@@ -150,7 +150,7 @@ color: #150b70;
     }
     
 #background2 {
-    background: url(../img/acustica/Fundo_Escavadeira.jpg) no-repeat center center fixed;  
+    background: url(../img/cultivo_inteligente/pepers_indoor.jpg) no-repeat center center fixed;  
     display: table;
     position: relative;
     background-size: auto auto;
@@ -160,7 +160,7 @@ color: #150b70;
     }
     
 #background3 {
-    background: url(../img/acustica/Fundo-Eólica.jpg) no-repeat center center fixed; 
+    background: url(../img/cultivo_inteligente/water_drops.jpg) no-repeat center center fixed; 
     display: table;
     position: relative;
     background-size: auto auto;
@@ -170,7 +170,7 @@ color: #150b70;
     }
 
 #background4 {
-    background: url(../img/acustica/Fundo-Chambre_anéchoique.jpg) no-repeat center center fixed; 
+    background: url(../img/cultivo_inteligente/indoor_plant_light_small.jpg) no-repeat center center fixed; 
     display: table;
     position: relative;
     background-size: auto auto;
@@ -180,7 +180,7 @@ color: #150b70;
     }
 
 #background5 {
-    background: url(../img/acustica/Fundo-Chambre_anéchoique.jpg) no-repeat center center fixed; 
+    background: url(../img/cultivo_inteligente/soil.jpg) no-repeat center center fixed; 
     display: table;
     position: relative;
     background-size: auto auto;
@@ -190,7 +190,16 @@ color: #150b70;
     }
 
 #background6 {
-    background: url(../img/acustica/Fundo-Chambre_anéchoique.jpg) no-repeat center center fixed; 
+    background: url(../img/cultivo_inteligente/indoor_plants.jpg) no-repeat center center fixed; 
+    display: table;
+    position: relative;
+    background-size: auto auto;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: scroll;
+    }
+#background7 {
+    background: url(../img/cultivo_inteligente/aromatherapy_plants.jpg) no-repeat center center fixed; 
     display: table;
     position: relative;
     background-size: auto auto;
