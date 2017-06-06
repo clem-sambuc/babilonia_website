@@ -156,7 +156,7 @@
 <!--         <p align="center"> <?php echo TXT_SOLUCAO_TITLE; ?> </p>-->
          <p align="center"> <?php echo TXT_SOLUCAO_BODY2; ?> </p>
     </div>
-    <img src="img/cultivo_inteligente/Fond_Site_Cuisine_Imagemap_Led_good.jpg" class="map" usemap="#image-map" >
+    <img src="img/cultivo_inteligente/Fond_Site_Cuisine_Imagemap_Led_good2.jpg" class="map" usemap="#image-map" >
     <map name="image-map">
       
       <!--  area "luz1" -->
