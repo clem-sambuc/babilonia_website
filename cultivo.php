@@ -298,6 +298,24 @@
         qtip-classes="qtip-blue qtip-rounded qtip-shadow"
         qtip-title="ÁGUA <img src='img/cultivo_inteligente/drops.png' style='position:absolute;top:-200%;left:90%;z-index:auto'>" qtip-content="<p><b>Reservatórios inteligentes</b> para que suas plantinhas nunca faltem de água, mesmo quando você não está em casa!</p>"
         coords="1913,183,1903,325,1940,330,1969,328,1982,184,1948,182" />
+        
+      <!--  area "cultivo6" -->
+      <area shape="poly" href="#cultivo" 
+        data-mapid="2" class="group2"
+        data-maphilight='{"groupBy":".group2","strokeColor":"3F6219","fillColor":"CAED9E","strokeWidth":2,"fillOpacity":0.3}' 
+        qtip-ref="pos-tooltip"
+        qtip-classes="qtip-green qtip-rounded qtip-shadow"
+        qtip-title="CULTIVO <img src='img/cultivo_inteligente/leaf.png' style='position:absolute;top:-200%;left:90%;z-index:auto'>" qtip-content="<p>Para dar um up na sua cozinha com lindas <b>plantas aromáticas</b> ou ornamentais, sempre fresquinhas e lindas!</p>"
+        coords="27,740,233,714,228,656,221,656,214,646,214,642,227,639,218,622,236,621,238,610,239,596,242,581,232,566,219,556,207,552,210,548,191,536,185,542,171,547,168,559,149,563,145,580,146,595,145,617,114,619,106,602,99,594,108,575,104,551,88,522,63,521,41,523,31,532,32,514,23,508,1,505,1,640,14,655,33,640,47,648,69,646,76,653,76,657,17,664" />
+      
+      <!--  area "luz3" -->
+      <area shape="poly" href="#luz" id="activearea"
+        data-mapid="1" class="group1"
+        data-maphilight='{"groupBy":".group1","strokeColor":"FFEF93","fillColor":"FFFFA3","strokeWidth":2,"fillOpacity":0.3}'
+        qtip-ref="pos-tooltip"
+        qtip-classes="qtip-rounded qtip-shadow" 
+        qtip-title="LUZ <img src='img/cultivo_inteligente/sun.png' style='position:absolute;top:-200%;left:90%;z-index:auto'></b>" qtip-content="<p>Sem luz do sol? Sem problema! Graças à <b>tecnologia LED</b>, suas plantas recebem a luz que precisam</p>"
+        coords="234,714,254,712,249,648,244,643,224,434,4,444,0,446,0,452,210,442,228,640,215,642,215,646,222,656,228,656" />
           
       
       <area shape="rect" id="pos-tooltip" coords="1218,595,1586,818" style="display:none" data-maphilight='{"fill":false,"stroke":false}'/>
