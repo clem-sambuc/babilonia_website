@@ -1,6 +1,7 @@
 <?php
   require("php/lang/lang-cultivo.php");
 ?> 
+
 <!DOCTYPE html>
 <html lang=<?php echo TXT_LANG; ?> >
 <head>
