@@ -314,7 +314,7 @@
         data-maphilight='{"groupBy":".group1","strokeColor":"FFEF93","fillColor":"FFFFA3","strokeWidth":2,"fillOpacity":0.3}'
         qtip-ref="pos-tooltip"
         qtip-classes="qtip-rounded qtip-shadow" 
-        qtip-title="LUZ <img src='img/cultivo_inteligente/sun.png' style='position:absolute;top:-200%;left:90%;z-index:auto'></b>" qtip-content="<p>Sem luz do sol? Sem problema! Graças à <b>tecnologia LED</b>, suas plantas recebem a luz que precisam</p>"
+        qtip-title="LUZ <img src='img/cultivo_inteligente/sun.png' style='position:absolute;top:-200%;left:90%;z-index:auto'></b>" qtip-content="<p class='lead'>Sem luz do sol? Sem problema! Graças à <b>tecnologia LED</b>, suas plantas recebem a luz que precisam</p>"
         coords="234,714,254,712,249,648,244,643,224,434,4,444,0,446,0,452,210,442,228,640,215,642,215,646,222,656,228,656" />
           
       
