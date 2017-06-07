@@ -439,7 +439,7 @@
           <p class="lead"><?php echo TXT_ADUBO_BODY2; ?></p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="img/cultivo_inteligente/gif-aplicativo.gif" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="img/cultivo_inteligente/gif-adubo.gif" alt="Generic placeholder image">
         </div>
       </div>
     
@@ -467,7 +467,7 @@
           <p class="lead"> <?php echo TXT_APLICATIVO_BODY2; ?> </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="img/cultivo_inteligente/modulo_agua_animacao.gif" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="img/cultivo_inteligente/gif-aplicativo.gif" alt="Generic placeholder image">
         </div>
       </div>
     
